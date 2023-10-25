@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191819;
+}
+
+.canvas-container {
+    position: relative;
+    
+}
+
+#miCanvas {
+    background-image: url('./public/image/portada.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position:static;
+    top: 0;
+    left: 0;
+}
+
+.texto-overlay {
+    position: absolute;
+    top: 0%;
+    margin-top: -32%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 900%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
