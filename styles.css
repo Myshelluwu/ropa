@@ -48,6 +48,10 @@ body {
     src: url(./public/fonts/ANDREW\ ELEGANT\ Regular.ttf);
 }
 
+@font-face{
+    font-family: Aerodynamic;
+    src: url(./public/fonts/aero_ho.ttf);
+}
 
 .boton{
     color: white;
@@ -75,3 +79,12 @@ p{
     font-size: 120%;
 }
 
+h2{
+    font-family: Aerodynamic;
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.min{
+    font-size: 90%;
+}
