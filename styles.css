@@ -6,7 +6,6 @@ body {
 
 .canvas-container {
     position: relative;
-    
 }
 
 #miCanvas {
@@ -23,11 +22,33 @@ body {
 .texto-overlay {
     position: absolute;
     top: 0%;
-    margin-top: -32%;
-    left: 40%;
+    margin-top: -40%;
+    left: 42%;
     transform: translate(-50%, -50%);
-    font-size: 900%;
+    font-size: 800%;
+    font-family: Andrew Elegant;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto-overlay2 {
+    position: absolute;
+    top: 0%;
+    margin-top: -8%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@font-face{
+    font-family: Andrew Elegant;
+    src: url(./public/fonts/ANDREW\ ELEGANT\ Regular.ttf);
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
 }
